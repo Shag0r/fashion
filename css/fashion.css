@@ -1,0 +1,313 @@
+/* start framwork */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+
+    background-color: #FFFBF0;
+
+}
+
+:root {
+    --fisrt: #A4BC46;
+    --snd: #363958;
+    --trd: #FABE4C;
+    --p-bg: #f1f1f1;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--snd);
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+
+p {
+    color: var(--snd);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+
+
+/* end framwork */
+
+/* header start  */
+.header-area {
+    background-image: url(../images/);
+    /* display: inline-block; */
+}
+
+.header-menu a {
+    margin: 10px 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--snd);
+    padding: 5px 2px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+
+
+
+}
+
+.header-menu a:hover {
+    border-color: var(--fisrt);
+
+    transition: 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+.h-nav a {
+
+    border: none;
+}
+
+.h-nav img {
+    width: 40%;
+
+}
+
+.c-btn {
+    background-color: var(--fisrt);
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px;
+    height: 60px;
+    color: #fff;
+    padding: 18px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+
+}
+
+.c-btn:hover {
+    border-color: var(--fisrt);
+    color: var(--snd);
+    background-color: var(--trd);
+}
+
+.c-btn img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.head-left h1 {
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 96px;
+
+}
+
+.head-left h1 span {
+    color: var(--trd);
+}
+
+/* head right  */
+.head-right {
+    width: 440.72px;
+    height: 648.71px;
+    left: 734px;
+    top: -63px;
+
+}
+
+
+
+/* header ends */
+
+/* women jacket start  */
+.woman-area h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.item {
+    width: 370px;
+    height: 550px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-right: 30px;
+    /* margin-left: 30px; */
+    margin-bottom: 20px;
+
+}
+
+.item .image {
+    width: 334px;
+    height: 327px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    margin: 18px;
+}
+
+.item .image img {
+    width: 293px;
+    height: 293px;
+    margin: 20px;
+}
+
+.item-content {
+    margin: 0px 22px;
+}
+
+.item-content h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.item-content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+}
+
+.item-foot {
+    display: inline-block;
+    margin: 0px 22px;
+}
+
+.item-foot span {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: var(--trd);
+}
+
+.i-btn {
+    margin-left: 61px;
+    margin-bottom: 10px;
+
+
+
+}
+
+/* women jacket ends  */
+/* blog section */
+.blog {
+    height: 135px;
+    width: 489px;
+    border: 2px solid transparent;
+    /* border will be transparent */
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 30px 0px #0000000D;
+
+
+
+}
+
+.blog:hover {
+    border-color: #A4BC46;
+}
+
+.blog img {
+    height: 82px;
+    width: 78px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin: 27px;
+
+
+
+}
+
+.blog-contant {
+    margin: 20px 0px;
+
+}
+
+.blog-contant h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.blog-contant p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner img {
+    margin-top: 27px;
+    height: 357px;
+    width: 599px;
+    border: 2px solid transparent;
+    border-radius: 0px;
+
+}
+
+/* footer section  */
+.footer-area {
+    text-align: center;
+}
